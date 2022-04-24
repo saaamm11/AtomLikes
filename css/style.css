@@ -1,0 +1,889 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: hay;
+    src: url(../font/Arti\ Regular.otf);
+}
+@font-face {
+    font-family: eng;
+    src: url(../font/NolluqapersonaluseRegular-VGMge.otf);
+}
+
+nav{
+    width: 100%;
+    background: white;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    z-index: 2;
+    opacity: 0.9;
+    
+}
+
+.navv{
+
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.logo{
+    width: 110px;
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul>li{
+    list-style: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: all 0.3s;
+}
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    padding: 35px;
+    font-family: hay;
+}
+
+li:hover{
+    color: rgb(0, 138, 129);
+    border-bottom: solid rgb(0, 138, 129);
+    padding-bottom: 15px;
+    font-weight: bolder;
+    transition: all 0.3s;
+    
+}
+a:hover{
+    color: rgb(0, 138, 129);
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+h1{
+    margin: 55px auto;
+    width: 35%;
+    font-family: eng;
+    font-size: 75px;
+    letter-spacing: 15px;
+    padding-top: 15px;
+    border-bottom: solid rgb(0, 138, 129);
+    border-radius: 55px;
+    
+}
+h2{
+    margin: 55px auto;
+}
+.h11{
+    width: 15%;
+    height: 100px;
+    font-family: hay;
+    margin: 55px auto;
+    padding: 15px;
+    letter-spacing: 3px;
+    font-size: 65px;
+    border-bottom:  5px solid rgb(58, 106, 103);
+    border-radius: 75px;
+    
+}
+
+.followers{
+    width: 40%;
+    background-color: rgba(0, 138, 129, 0.155);
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 45px;
+    margin-top: 60px;
+    border-radius: 80px 20px 80px 20px;
+    padding: 55px;
+    gap: 35px;
+    box-shadow: 0px 0px 50px 5px rgba(0, 138, 129, 0.512);
+}
+.followersq{
+    width: 80%;
+    background-color: rgba(0, 138, 129, 0.155);
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 45px;
+    margin-top: 60px;
+    border-radius: 80px 20px 80px 20px;
+    padding: 55px;
+    gap: 35px;
+    box-shadow: 0px 0px 50px 5px rgba(0, 138, 129, 0.512);
+}
+.followers1{
+    width: 150px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.687);
+    border-radius: 15px 70px 15px 15px;
+    display: flex;
+    margin: 25px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: 0.3s;
+    box-shadow: 0px 0px 50px 5px #008a8183;
+}
+.followers1:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    background: linear-gradient(90deg, rgba(52, 130, 125, 0.546) 0%,rgba(60, 114, 144, 0.637)) 35%, rgba(23, 99, 94, 0.642) 85%;
+    color: white;
+    box-shadow: 0px 0px 50px 5px #003c38b1;
+}
+
+.followers1:active{
+    transform: scale(0.9);
+
+}
+
+.so{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    font-family: hay;
+    font-size: 22px;
+}
+
+.block{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.aue{
+    margin: 35px auto;
+    width: 650px;
+    height: 400px;
+    
+}
+.aue1{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px auto;
+    width: 650px;
+    height: 400px;
+    
+}
+.dzax{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.pre{
+    margin: 0 auto;
+}
+.ptext{
+    text-align: center;
+    margin: 0 auto;
+    font-family: hay;
+    font-size: 35px;
+    padding: 25px;
+}
+.dzaxg{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    margin: 0 auto;
+    width: 100%;
+    background: rgba(0, 85, 82, 0.543);
+}
+.ft{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 65px;
+    
+    
+}
+h3{
+    margin: 55px auto;
+    text-align: center;
+    font-family: hay;
+    font-size: 35px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.619);
+    border-radius: 35px;
+    padding: 20px;
+}
+.cop{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    font-family: eng;
+    font-size: 15px;
+    color: white;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    *{
+        overflow-x: hidden;
+    }
+    body {
+      overflow-x: hidden;
+    }
+    nav{
+        position: relative;
+        width: 60%;
+        background: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        opacity: 1;
+        
+    }
+    
+    
+h1{
+    margin: 55px auto;
+    width: 100%;
+    font-family: eng;
+    font-size: 75px;
+    letter-spacing: 15px;
+    padding-top: 15px;
+    border-bottom: solid rgb(0, 138, 129);
+    border-radius: 55px;
+    
+}
+    .navv{
+    
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+    
+    .logo{
+        width: 180px;
+    
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    ul>li{
+        list-style: none;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        transition: all 0.3s;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 5px;
+        padding: 35px;
+        display: flex;
+        justify-content: center;
+        font-family: hay;
+    }
+   .aue{
+       display: none;
+   } 
+   .aue1{
+       display: none;
+}   
+
+
+
+
+
+h2{
+    margin: 55px auto;
+}
+.h11{
+    overflow-y: hidden;
+    width: 50%;
+    font-family: hay;
+    margin: 55px auto;
+    padding: 15px;
+    letter-spacing: 3px;
+    font-size: 65px;
+    border-bottom:  5px solid rgb(58, 106, 103);
+    border-radius: 75px;
+    
+}
+
+.followers{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 138, 129, 0.155);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 80px;
+    padding: 55px;
+    gap: 35px;
+    box-shadow: 0px 0px 50px 5px rgba(0, 138, 129, 0.512);
+}
+.followersq{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 138, 129, 0.155);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 80px;
+    padding: 55px;
+    gap: 35px;
+    box-shadow: 0px 0px 50px 5px rgba(0, 138, 129, 0.512);
+}
+.followers1{
+    width: 150px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.687);
+    border-radius: 15px 70px 15px 15px;
+    display: flex;
+    margin: 25px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: 0.3s;
+    box-shadow: 0px 0px 50px 5px #008a8183;
+}
+.followers1:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    background: linear-gradient(90deg, rgba(52, 130, 125, 0.546) 0%,rgba(60, 114, 144, 0.637)) 35%, rgba(23, 99, 94, 0.642) 85%;
+    color: white;
+    box-shadow: 0px 0px 50px 5px #003c38b1;
+}
+
+.followers1:active{
+    transform: scale(0.9);
+
+}
+
+.so{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    font-family: hay;
+    font-size: 22px;
+}
+
+.block{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+}
+.dzax{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.pre{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.ptext{
+    text-align: center;
+    margin: 0 auto;
+    font-family: hay;
+    font-size: 35px;
+    padding: 25px;
+}
+.dzaxg{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+footer{
+    margin: 0 auto;
+    width: 100%;
+    background: rgba(0, 85, 82, 0.543);
+}
+.ft{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 65px;
+    
+    
+}
+h3{
+    margin: 55px auto;
+    text-align: center;
+    font-family: hay;
+    font-size: 35px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.619);
+    border-radius: 35px;
+    padding: 20px;
+}
+.cop{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    font-family: eng;
+    font-size: 15px;
+    color: white;
+}
+  }
+  @media only screen and (max-width: 768px) {
+
+    *{
+        overflow-x: hidden;
+    }
+    body {
+      overflow-x: hidden;
+    }
+    nav{
+        position: relative;
+        width: 60%;
+        background: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        opacity: 1;
+        
+    }
+    
+    
+h1{
+    margin: 55px auto;
+    width: 100%;
+    font-family: eng;
+    font-size: 75px;
+    letter-spacing: 15px;
+    padding-top: 15px;
+    border-bottom: solid rgb(0, 138, 129);
+    border-radius: 55px;
+    
+}
+    .navv{
+    
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+    
+    .logo{
+        width: 180px;
+    
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    ul>li{
+        list-style: none;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        transition: all 0.3s;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 5px;
+        padding: 35px;
+        display: flex;
+        justify-content: center;
+        font-family: hay;
+    }
+   .aue{
+       display: none;
+   } 
+   .aue1{
+       display: none;
+}   
+
+
+
+
+
+h2{
+    margin: 55px auto;
+}
+.h11{
+    overflow-y: hidden;
+    width: 50%;
+    font-family: hay;
+    margin: 55px auto;
+    padding: 15px;
+    letter-spacing: 3px;
+    font-size: 65px;
+    border-bottom:  5px solid rgb(58, 106, 103);
+    border-radius: 75px;
+    
+}
+
+.followers{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 138, 129, 0.155);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 80px;
+    padding: 55px;
+    gap: 35px;
+    box-shadow: 0px 0px 50px 5px rgba(0, 138, 129, 0.512);
+}
+.followersq{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 138, 129, 0.155);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 80px;
+    padding: 55px;
+    gap: 35px;
+    box-shadow: 0px 0px 50px 5px rgba(0, 138, 129, 0.512);
+}
+.followers1{
+    width: 150px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.687);
+    border-radius: 15px 70px 15px 15px;
+    display: flex;
+    margin: 25px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: 0.3s;
+    box-shadow: 0px 0px 50px 5px #008a8183;
+}
+.followers1:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    background: linear-gradient(90deg, rgba(52, 130, 125, 0.546) 0%,rgba(60, 114, 144, 0.637)) 35%, rgba(23, 99, 94, 0.642) 85%;
+    color: white;
+    box-shadow: 0px 0px 50px 5px #003c38b1;
+}
+
+.followers1:active{
+    transform: scale(0.9);
+
+}
+
+.so{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    font-family: hay;
+    font-size: 22px;
+}
+
+.block{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+}
+.dzax{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.pre{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.ptext{
+    text-align: center;
+    margin: 0 auto;
+    font-family: hay;
+    font-size: 35px;
+    padding: 25px;
+}
+.dzaxg{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+footer{
+    margin: 0 auto;
+    width: 100%;
+    background: rgba(0, 85, 82, 0.543);
+}
+.ft{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 65px;
+    
+    
+}
+h3{
+    margin: 55px auto;
+    text-align: center;
+    font-family: hay;
+    font-size: 35px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.619);
+    border-radius: 35px;
+    padding: 20px;
+}
+.cop{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    font-family: eng;
+    font-size: 15px;
+    color: white;
+}
+  }
+  @media only screen and (max-width: 912px) {
+
+    *{
+        overflow-x: hidden;
+    }
+    body {
+      overflow-x: hidden;
+    }
+    nav{
+        position: relative;
+        width: 60%;
+        background: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        opacity: 1;
+        
+    }
+    
+    
+h1{
+    margin: 55px auto;
+    width: 100%;
+    font-family: eng;
+    font-size: 75px;
+    letter-spacing: 15px;
+    padding-top: 15px;
+    border-bottom: solid rgb(0, 138, 129);
+    border-radius: 55px;
+    
+}
+    .navv{
+    
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+    
+    .logo{
+        width: 180px;
+    
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    ul>li{
+        list-style: none;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        transition: all 0.3s;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 5px;
+        padding: 35px;
+        display: flex;
+        justify-content: center;
+        font-family: hay;
+    }
+   .aue{
+       display: none;
+   } 
+   .aue1{
+       display: none;
+}   
+
+
+
+
+
+h2{
+    margin: 55px auto;
+}
+.h11{
+    overflow-y: hidden;
+    width: 50%;
+    font-family: hay;
+    margin: 55px auto;
+    padding: 15px;
+    letter-spacing: 3px;
+    font-size: 65px;
+    border-bottom:  5px solid rgb(58, 106, 103);
+    border-radius: 75px;
+    
+}
+
+.followers{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 138, 129, 0.155);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 80px;
+    padding: 55px;
+    gap: 35px;
+    box-shadow: 0px 0px 50px 5px rgba(0, 138, 129, 0.512);
+}
+.followersq{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 138, 129, 0.155);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 80px;
+    padding: 55px;
+    gap: 35px;
+    box-shadow: 0px 0px 50px 5px rgba(0, 138, 129, 0.512);
+}
+.followers1{
+    width: 150px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.687);
+    border-radius: 15px 70px 15px 15px;
+    display: flex;
+    margin: 25px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: 0.3s;
+    box-shadow: 0px 0px 50px 5px #008a8183;
+}
+.followers1:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    background: linear-gradient(90deg, rgba(52, 130, 125, 0.546) 0%,rgba(60, 114, 144, 0.637)) 35%, rgba(23, 99, 94, 0.642) 85%;
+    color: white;
+    box-shadow: 0px 0px 50px 5px #003c38b1;
+}
+
+.followers1:active{
+    transform: scale(0.9);
+
+}
+
+.so{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    font-family: hay;
+    font-size: 22px;
+}
+
+.block{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+}
+.dzax{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.pre{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.ptext{
+    text-align: center;
+    margin: 0 auto;
+    font-family: hay;
+    font-size: 35px;
+    padding: 25px;
+}
+.dzaxg{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+footer{
+    margin: 0 auto;
+    width: 100%;
+    background: rgba(0, 85, 82, 0.543);
+}
+.ft{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 65px;
+    
+    
+}
+h3{
+    margin: 55px auto;
+    text-align: center;
+    font-family: hay;
+    font-size: 35px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.619);
+    border-radius: 35px;
+    padding: 20px;
+}
+.cop{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    font-family: eng;
+    font-size: 15px;
+    color: white;
+}
+  }
+
+
