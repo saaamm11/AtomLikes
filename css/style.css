@@ -240,8 +240,6 @@ h3{
 
 
 
-
-
 @media only screen and (max-width: 600px) {
 
     *{
@@ -652,8 +650,8 @@ h2{
 }
 
 .followers{
-    width: 100%;
-    margin: 0 auto;
+    width: 80%;
+    margin: 55px auto;
     background-color: rgba(0, 138, 129, 0.155);
     display: flex;
     flex-wrap: wrap;
@@ -663,15 +661,14 @@ h2{
     box-shadow: 0px 0px 50px 5px rgba(0, 138, 129, 0.512);
 }
 .followersq{
-    width: 100%;
-    margin: 0 auto;
-    background-color: rgba(0, 138, 129, 0.155);
+    width: 80%;
+    margin: 55px auto;
     display: flex;
     flex-wrap: wrap;
     border-radius: 80px;
     padding: 55px;
     gap: 35px;
-      
+    box-shadow: 0px 0px 50px 5px rgba(0, 138, 129, 0.512) !important;
 }
 .followers1{
     width: 150px;
@@ -955,8 +952,8 @@ h2{
 }
 
 .followers{
-    width: 100%;
-    margin: 0 auto;
+    width: 80%;
+    margin: 55px auto;
     background-color: rgba(0, 138, 129, 0.155);
     display: flex;
     flex-wrap: wrap;
@@ -966,15 +963,14 @@ h2{
     box-shadow: 0px 0px 50px 5px rgba(0, 138, 129, 0.512);
 }
 .followersq{
-    width: 100%;
-    margin: 0 auto;
-    background-color: rgba(0, 138, 129, 0.155);
+    width: 80%;
+    margin: 55px auto;
     display: flex;
     flex-wrap: wrap;
     border-radius: 80px;
     padding: 55px;
     gap: 35px;
-    box-shadow: 0px 0px 50px 5px rgba(0, 138, 129, 0.512);
+    box-shadow: 0px 0px 50px 5px rgba(0, 138, 129, 0.512) !important;
 }
 .followers1{
     width: 150px;
@@ -1107,7 +1103,7 @@ h3{
 .pop_up_body{
     width: 500px;
     background-color: white;
-    box-shadow: 0px 0px 30px 3000px rgba(0, 36, 33, 0.555);
+    box-shadow: 0px 0px 30px 600px rgba(0, 36, 33, 0.555);
     margin: auto;
     border-radius: 15px;
     text-align: center;
