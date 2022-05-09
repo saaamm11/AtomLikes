@@ -52,6 +52,7 @@
       opacity: 1;
     }
   }
+
   
 .atom{
     display: flex;
@@ -376,7 +377,7 @@ h3{
     }
 
     h4{
-        margin-top: -35px;
+        display: none;
         color: rgba(0, 0, 0, 0.829);
         font-weight: 100;
         text-transform: uppercase;
@@ -391,7 +392,8 @@ h3{
         color: rgba(0, 0, 0, 0.829);
         font-weight: bold;
         margin: 0 auto;
-        animation: focus-in-contract 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        font-size: 55px !important;
+        animation: focus-in-contract 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
      }
 
     body {
@@ -634,6 +636,7 @@ h3{
     }
 
     h4{
+        display: none;
         color: rgba(0, 0, 0, 0.829);
         font-weight: 100;
         text-transform: uppercase;
@@ -645,31 +648,32 @@ h3{
     
     
     h1{
-        font-size: 22px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px !important;
+        text-align: center;
         font-weight: bold;
         color: rgba(0, 0, 0, 0.829);
-        margin: 0 auto;
-        animation: focus-in-contract 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        margin: 15px auto;
+        animation: focus-in-contract 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
      }
       
 .atom{
     display: flex;
     flex-wrap: wrap;
     padding-top: 55px;
+    margin: 0 auto;
     
 }
 .atomlikes{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
     font-family: eng1;
     letter-spacing: 15px;
-    border-radius: 0 0 95px 95px;
     margin: 40px auto;
-    margin-bottom: 2px;
-    width: 80%;
-    height: 300px;
+    width: 100%;
     background: transparent;
 }
 
@@ -985,6 +989,7 @@ h3{
     background: transparent;
 }
     h4{
+        display: none;
         color: rgba(0, 0, 0, 0.829);
         font-weight: 100;
         text-transform: uppercase;
@@ -998,9 +1003,10 @@ h3{
     h1{
         color: rgba(0, 0, 0, 0.829);
         font-size: 35px;
+        font-size: 50px !important;
         font-weight: bold;
         margin: 0 auto;
-        animation: focus-in-contract 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: focus-in-contract 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
      }
 
     *{
