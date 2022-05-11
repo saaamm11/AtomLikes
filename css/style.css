@@ -183,6 +183,7 @@ h4{
     font-size: 35px;
     font-family: hay;
     letter-spacing: 10px;
+    padding: 55px;
     animation: text-focus-in 2.5s
 }
 
@@ -190,6 +191,7 @@ h4{
 h1{
     color: rgba(0, 0, 0, 0.829);
     margin: 0 auto;
+    padding: 55px;
     animation: focus-in-contract 2s
  }
 h2{
