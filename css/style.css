@@ -310,7 +310,7 @@ h2{
 footer{
     margin: 0 auto;
     width: 100%;
-    background: rgba(0, 85, 82, 0.543);
+    background: rgba(0, 43, 41, 0.543);
 }
 .ft{
     width: 100%;
@@ -325,9 +325,9 @@ h3{
     margin: 55px auto;
     text-align: center;
     font-family: hay;
-    font-size: 35px;
+    font-size: 45px;
     cursor: pointer;
-    background: rgba(255, 255, 255, 0.619);
+    color: white;
     border-radius: 35px;
     padding: 20px;
 }
@@ -559,7 +559,7 @@ h2{
 footer{
     margin: 0 auto;
     width: 100%;
-    background: rgba(0, 85, 82, 0.543);
+    background: rgba(0, 43, 41, 0.543);
 }
 .ft{
     width: 100%;
@@ -574,9 +574,9 @@ h3{
     margin: 55px auto;
     text-align: center;
     font-family: hay;
-    font-size: 35px;
+    font-size: 45px;
     cursor: pointer;
-    background: rgba(255, 255, 255, 0.619);
+    color: white;
     border-radius: 35px;
     padding: 20px;
 }
@@ -908,7 +908,7 @@ h2{
 footer{
     margin: 0 auto;
     width: 100%;
-    background: rgba(0, 85, 82, 0.543);
+    background: rgba(0, 43, 41, 0.543);
 }
 .ft{
     width: 100%;
@@ -923,9 +923,9 @@ h3{
     margin: 55px auto;
     text-align: center;
     font-family: hay;
-    font-size: 35px;
+    font-size: 45px;
     cursor: pointer;
-    background: rgba(255, 255, 255, 0.619);
+    color: white;
     border-radius: 35px;
     padding: 20px;
 }
@@ -1241,7 +1241,7 @@ h2{
 footer{
     margin: 0 auto;
     width: 100%;
-    background: rgba(0, 85, 82, 0.543);
+    background: rgba(0, 43, 41, 0.543);
 }
 .ft{
     width: 100%;
@@ -1256,9 +1256,9 @@ h3{
     margin: 55px auto;
     text-align: center;
     font-family: hay;
-    font-size: 35px;
+    font-size: 45px;
     cursor: pointer;
-    background: rgba(255, 255, 255, 0.619);
+    color: white;
     border-radius: 35px;
     padding: 20px;
 }
