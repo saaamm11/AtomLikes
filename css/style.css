@@ -367,7 +367,8 @@ h3{
         color: rgba(0, 0, 0, 0.829);
         font-weight: bold;
         margin: 0 auto;
-        font-size: 55px !important;
+        text-align: center;
+        font-size: 50px !important;
         animation: focus-in-contract 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
      }
 
@@ -397,13 +398,10 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
     font-family: eng1;
     letter-spacing: 15px;
-    border-radius: 0 0 95px 95px;
-    margin: 40px auto;
-    margin-bottom: 2px;
-    width: 100%;
+    margin: 0 auto !important;
+    width: 80% !important;
     background: transparent;
 }
     
@@ -478,7 +476,7 @@ h2{
     border-radius: 80px;
     padding: 55px;
     gap: 35px;
-    box-shadow: 0px 0px 50px 5px rgba(0, 138, 129, 0.512);
+    box-shadow: 0px 0px 50px 5px 
 }
 .followersq{
     width: 100%;
@@ -622,14 +620,14 @@ h3{
     
     
     h1{
+        width: 100%;
         display: flex;
         justify-content: center;
-        align-items: center;
         font-size: 50px !important;
         text-align: center;
         font-weight: bold;
         color: rgba(0, 0, 0, 0.829);
-        margin: 15px auto;
+        margin: 0px auto !important;
         animation: focus-in-contract 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
      }
       
@@ -647,7 +645,7 @@ h3{
     font-family: eng1;
     letter-spacing: 15px;
     margin: 40px auto;
-    width: 100%;
+    width: 100% !important;
     background: transparent;
 }
 
@@ -974,8 +972,8 @@ h3{
     
     
     h1{
-        color: rgba(0, 0, 0, 0.829);
-        font-size: 35px;
+        color: rgba(4, 23, 22, 0.855);
+        text-transform: uppercase;
         font-size: 50px !important;
         font-weight: bold;
         margin: 0 auto;
@@ -1250,7 +1248,6 @@ footer{
     margin: 0 auto;
     display: flex;
     align-items: center;
-    margin-top: 65px;
     
     
 }
