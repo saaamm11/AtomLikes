@@ -1,8 +1,14 @@
-const flw = document.querySelectorAll('.hetevord');
-const popup = document.querySelector('.popup');
-const close = document.querySelector('.popupclose');
+const openPopUp = document.getElementById('f1')
+const closePopUp = document.getElementById('pop_up_close')
+const popUp = document.getElementById('pop_up')
 
-flw.addEventListener("click", function () {
-    popup.classList.remove("display-none")
+openPopUp.addEventListener('click', function(e){
+    e.preventDefault();
+    popUp.classList.add('active');
 })
+
+closePopUp.addEventListener('click', () => {
+    popUp.classList.remove('active');
+})
+
 
