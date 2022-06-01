@@ -960,6 +960,7 @@ button{
                         align-items: center;
                         transition: 0.5s;
                         gap: 25px;
+                        padding: 25px;
                     }
                     .menq{
                         display: flex;
@@ -1356,6 +1357,7 @@ button{
                         align-items: center;
                         transition: 0.5s;
                         gap: 25px;
+                        padding: 25px;
                     }
                     .menq{
                         display: flex;
