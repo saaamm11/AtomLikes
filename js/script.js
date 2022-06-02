@@ -1,14 +1,14 @@
-const openPopUp = document.getElementById('f1')
-const closePopUp = document.getElementById('pop_up_close')
-const popUp = document.getElementById('pop_up')
+const popupclose = document.querySelector('.pop_up_close')
+const popupcl = document.querySelector('.po')
+const flw = document.querySelectorAll('.hetevord')
 
-openPopUp.addEventListener('click', function(e){
-    e.preventDefault();
-    popUp.classList.add('active');
+
+flw.forEach(flwq => {
+    flwq.addEventListener('click', function () {
+        popupcl.classList.remove('po')
+    })
+});
+
+popupclose.addEventListener('click', function () {
+    popupcl.classList.add('po')
 })
-
-closePopUp.addEventListener('click', () => {
-    popUp.classList.remove('active');
-})
-
-
